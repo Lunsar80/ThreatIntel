@@ -20,7 +20,6 @@ A curated collection of cybersecurity RSS feeds for threat intelligence and secu
 ---
 
 ## Phishing
-
 * [Krebs on Security](https://krebsonsecurity.com/feed/)
 * [Cofense](https://cofense.com/feed/)
 * [Proofpoint](https://www.proofpoint.com/us/rss.xml)
@@ -43,7 +42,6 @@ A curated collection of cybersecurity RSS feeds for threat intelligence and secu
 ---
 
 ## Ransomware
-
 * [The Record](https://therecord.media/feed/)
 * [Security Affairs](http://securityaffairs.co/wordpress/feed)
 * [HackRead](https://www.hackread.com/feed/)
@@ -105,7 +103,7 @@ A curated collection of cybersecurity RSS feeds for threat intelligence and secu
 * [Cloudflare Security](https://blog.cloudflare.com/tag/security/rss)
 * [Google Online Security](https://googleonlinesecurity.blogspot.com/atom.xml)
 * [Broadcom Symantec](https://sed-cms.broadcom.com/rss/v1/blogs/rss.xml)
-
+* [PaloAlto Networks Unit 42]https://www.paloaltonetworks.com/blog/rss
 ---
 
 ## Community
