@@ -1,0 +1,613 @@
+feeds:
+
+malware:
+- name: The Hacker News
+category: malware
+subcategory: general
+priority: high
+type: rss
+enabled: true
+url: https://feeds.feedburner.com/TheHackersNews
+tags:
+- malware
+- ransomware
+- threat-intel
+
+```
+- name: BleepingComputer
+  category: malware
+  subcategory: general
+  priority: high
+  type: rss
+  enabled: true
+  url: https://www.bleepingcomputer.com/feed/
+  tags:
+    - malware
+    - breaches
+    - incident-response
+
+- name: Malwarebytes Labs
+  category: malware
+  subcategory: general
+  priority: medium
+  type: rss
+  enabled: true
+  url: https://blog.malwarebytes.com/feed/
+  tags:
+    - malware
+    - consumer-threats
+
+- name: Malware Traffic Analysis
+  category: malware
+  subcategory: traffic-analysis
+  priority: high
+  type: rss
+  enabled: true
+  url: http://www.malware-traffic-analysis.net/blog-entries.rss
+  tags:
+    - pcap
+    - malware
+    - network-analysis
+
+- name: SecureList (Kaspersky)
+  category: malware
+  subcategory: research
+  priority: high
+  type: rss
+  enabled: true
+  url: https://securelist.com/feed/
+  tags:
+    - malware
+    - apt
+    - research
+
+- name: SentinelOne Labs
+  category: malware
+  subcategory: research
+  priority: high
+  type: rss
+  enabled: true
+  url: https://www.sentinelone.com/labs/feed/
+  tags:
+    - malware
+    - edr
+    - threat-research
+
+- name: Intezer
+  category: malware
+  subcategory: research
+  priority: medium
+  type: rss
+  enabled: true
+  url: https://www.intezer.com/blog/feed/
+  tags:
+    - malware
+    - code-analysis
+```
+
+phishing:
+- name: Krebs on Security
+category: phishing
+priority: high
+type: rss
+enabled: true
+url: https://krebsonsecurity.com/feed/
+tags:
+- phishing
+- fraud
+- cybercrime
+
+```
+- name: Cofense
+  category: phishing
+  priority: medium
+  type: rss
+  enabled: true
+  url: https://cofense.com/feed/
+  tags:
+    - phishing
+    - email-security
+
+- name: Proofpoint
+  category: phishing
+  priority: high
+  type: rss
+  enabled: true
+  url: https://www.proofpoint.com/us/rss.xml
+  tags:
+    - phishing
+    - email-security
+    - threat-intel
+```
+
+vulnerabilities:
+- name: Dark Reading
+category: vulnerabilities
+subcategory: disclosure
+priority: high
+type: rss
+enabled: true
+url: https://www.darkreading.com/rss.xml
+tags:
+- vulnerabilities
+- cve
+
+```
+- name: Google Project Zero
+  category: vulnerabilities
+  subcategory: disclosure
+  priority: critical
+  type: rss
+  enabled: true
+  url: https://googleprojectzero.blogspot.com/feeds/posts/default
+  tags:
+    - zero-day
+    - exploit
+    - vulnerability-research
+
+- name: Microsoft Security Update Guide
+  category: vulnerabilities
+  subcategory: advisories
+  priority: critical
+  type: rss
+  enabled: true
+  url: https://api.msrc.microsoft.com/update-guide/rss
+  tags:
+    - microsoft
+    - patches
+    - cve
+
+- name: Qualys Blog
+  category: vulnerabilities
+  subcategory: disclosure
+  priority: medium
+  type: rss
+  enabled: true
+  url: https://blog.qualys.com/feed
+  tags:
+    - vulnerability-management
+
+- name: 0patch Blog
+  category: vulnerabilities
+  subcategory: micropatching
+  priority: medium
+  type: rss
+  enabled: true
+  url: https://blog.0patch.com/feeds/posts/default
+  tags:
+    - micropatch
+    - exploit
+
+- name: Tenable Research
+  category: vulnerabilities
+  subcategory: intelligence
+  priority: high
+  type: rss
+  enabled: true
+  url: https://www.tenable.com/blog/feed
+  tags:
+    - vulnerabilities
+    - exposure-management
+
+- name: Rapid7 Blog
+  category: vulnerabilities
+  subcategory: intelligence
+  priority: high
+  type: rss
+  enabled: true
+  url: https://blog.rapid7.com/rss/
+  tags:
+    - vulnerabilities
+    - metasploit
+```
+
+ransomware:
+- name: The Record
+category: ransomware
+priority: high
+type: rss
+enabled: true
+url: https://therecord.media/feed/
+tags:
+- ransomware
+- cybercrime
+
+```
+- name: Security Affairs
+  category: ransomware
+  priority: medium
+  type: rss
+  enabled: true
+  url: http://securityaffairs.co/wordpress/feed
+  tags:
+    - ransomware
+    - cybercrime
+
+- name: HackRead
+  category: ransomware
+  priority: low
+  type: rss
+  enabled: true
+  url: https://www.hackread.com/feed/
+  tags:
+    - ransomware
+    - breaches
+
+- name: HACKMAGEDDON
+  category: ransomware
+  priority: medium
+  type: rss
+  enabled: true
+  url: https://www.hackmageddon.com/feed/
+  tags:
+    - incidents
+    - ransomware
+
+- name: UpGuard Breaches
+  category: ransomware
+  priority: medium
+  type: rss
+  enabled: true
+  url: https://www.upguard.com/breaches/rss.xml
+  tags:
+    - breaches
+    - exposures
+```
+
+apt:
+- name: Palo Alto Networks
+category: apt
+subcategory: nation-state
+priority: high
+type: rss
+enabled: true
+url: https://www.paloaltonetworks.com/blog/rss
+tags:
+- apt
+- unit42
+
+```
+- name: Google Threat Analysis Group
+  category: apt
+  subcategory: nation-state
+  priority: critical
+  type: rss
+  enabled: true
+  url: https://blog.google/threat-analysis-group/rss/
+  tags:
+    - apt
+    - nation-state
+
+- name: Mandiant (Google Cloud)
+  category: apt
+  subcategory: nation-state
+  priority: critical
+  type: rss
+  enabled: true
+  url: https://www.mandiant.com/resources/blog/rss.xml
+  tags:
+    - incident-response
+    - apt
+
+- name: Cisco Talos
+  category: apt
+  subcategory: threat-actors
+  priority: high
+  type: rss
+  enabled: true
+  url: http://feeds.feedburner.com/feedburner/Talos
+  tags:
+    - threat-actors
+    - malware
+
+- name: Check Point Research
+  category: apt
+  subcategory: threat-actors
+  priority: high
+  type: rss
+  enabled: true
+  url: https://research.checkpoint.com/feed/
+  tags:
+    - apt
+    - malware
+
+- name: Trend Micro
+  category: apt
+  subcategory: threat-actors
+  priority: medium
+  type: rss
+  enabled: true
+  url: http://feeds.trendmicro.com/TrendMicroSimplySecurity
+  tags:
+    - apt
+    - malware
+```
+
+threat_intel:
+- name: EclecticIQ
+category: threat-intel
+priority: medium
+type: rss
+enabled: true
+url: https://blog.eclecticiq.com/rss.xml
+tags:
+- cti
+- intelligence
+
+```
+- name: SOC Prime
+  category: threat-intel
+  priority: medium
+  type: rss
+  enabled: true
+  url: https://socprime.com/blog/feed/
+  tags:
+    - sigma
+    - detection-engineering
+
+- name: Threatpost
+  category: threat-intel
+  priority: medium
+  type: rss
+  enabled: true
+  url: https://threatpost.com/feed/
+  tags:
+    - threat-intel
+    - vulnerabilities
+
+- name: Bitdefender Labs
+  category: threat-intel
+  priority: medium
+  type: rss
+  enabled: true
+  url: https://www.bitdefender.com/blog/api/rss/labs/
+  tags:
+    - malware
+    - threat-intel
+```
+
+government:
+- name: CISA Cybersecurity Advisories
+category: government
+priority: critical
+type: rss
+enabled: true
+url: https://www.cisa.gov/cybersecurity-advisories/all.xml
+tags:
+- cisa
+- advisories
+- kev
+
+```
+- name: CISA News
+  category: government
+  priority: high
+  type: rss
+  enabled: true
+  url: https://www.cisa.gov/news.xml
+  tags:
+    - cisa
+    - government
+
+- name: NIST Cybersecurity Insights
+  category: government
+  priority: high
+  type: rss
+  enabled: true
+  url: https://www.nist.gov/blogs/cybersecurity-insights/rss.xml
+  tags:
+    - nist
+    - standards
+
+- name: CIS Advisories
+  category: government
+  priority: high
+  type: rss
+  enabled: true
+  url: https://www.cisecurity.org/feed/advisories
+  tags:
+    - advisories
+    - benchmarks
+
+- name: SANS Internet Storm Center
+  category: government
+  priority: critical
+  type: rss
+  enabled: true
+  url: https://isc.sans.edu/rssfeed_full.xml
+  tags:
+    - sans
+    - network-threats
+```
+
+general_security_news:
+- name: Schneier on Security
+category: news
+priority: high
+type: rss
+enabled: true
+url: https://www.schneier.com/blog/atom.xml
+tags:
+- policy
+- security-news
+
+```
+- name: WIRED Security
+  category: news
+  priority: medium
+  type: rss
+  enabled: true
+  url: https://www.wired.com/feed/category/security/latest/rss
+  tags:
+    - cyber-news
+
+- name: Ars Technica Security
+  category: news
+  priority: high
+  type: rss
+  enabled: true
+  url: https://arstechnica.com/tag/security/feed/
+  tags:
+    - security-news
+
+- name: ZDNet Security
+  category: news
+  priority: medium
+  type: rss
+  enabled: true
+  url: https://www.zdnet.com/topic/security/rss.xml
+  tags:
+    - enterprise-security
+
+- name: Infosecurity Magazine
+  category: news
+  priority: medium
+  type: rss
+  enabled: true
+  url: http://www.infosecurity-magazine.com/rss/news/
+  tags:
+    - security-news
+
+- name: Graham Cluley
+  category: news
+  priority: medium
+  type: rss
+  enabled: true
+  url: https://www.grahamcluley.com/feed/
+  tags:
+    - cybercrime
+
+- name: Troy Hunt
+  category: news
+  priority: high
+  type: rss
+  enabled: true
+  url: https://www.troyhunt.com/rss/
+  tags:
+    - breaches
+    - identity-security
+
+- name: Cisco Security
+  category: vendor
+  priority: high
+  type: rss
+  enabled: true
+  url: https://blogs.cisco.com/security/feed
+  tags:
+    - vendor
+    - network-security
+
+- name: Cloudflare Security
+  category: vendor
+  priority: high
+  type: rss
+  enabled: true
+  url: https://blog.cloudflare.com/tag/security/rss
+  tags:
+    - cloud-security
+
+- name: Google Online Security
+  category: vendor
+  priority: high
+  type: rss
+  enabled: true
+  url: https://googleonlinesecurity.blogspot.com/atom.xml
+  tags:
+    - google
+    - security
+
+- name: Broadcom Symantec
+  category: vendor
+  priority: medium
+  type: rss
+  enabled: true
+  url: https://sed-cms.broadcom.com/rss/v1/blogs/rss.xml
+  tags:
+    - endpoint-security
+
+- name: Palo Alto Networks Unit 42
+  category: vendor
+  priority: critical
+  type: rss
+  enabled: true
+  url: https://www.paloaltonetworks.com/blog/rss
+  tags:
+    - unit42
+    - threat-research
+```
+
+community:
+- name: r/netsec
+category: community
+priority: medium
+type: rss
+enabled: true
+url: http://www.reddit.com/r/netsec/.rss
+tags:
+- reddit
+- netsec
+
+```
+- name: r/cybersecurity
+  category: community
+  priority: low
+  type: rss
+  enabled: true
+  url: https://www.reddit.com/r/cybersecurity/.rss
+  tags:
+    - reddit
+    - cybersecurity
+
+- name: SpecterOps
+  category: community
+  priority: high
+  type: rss
+  enabled: true
+  url: https://specterops.io/feed/
+  tags:
+    - adversary-emulation
+    - identity-security
+```
+
+offensive_security:
+- name: SensePost
+category: offensive-security
+priority: high
+type: rss
+enabled: true
+url: https://sensepost.com/rss.xml
+tags:
+- red-team
+- offensive-security
+
+```
+- name: Quarkslab
+  category: offensive-security
+  priority: high
+  type: rss
+  enabled: true
+  url: https://blog.quarkslab.com/feeds/all.rss.xml
+  tags:
+    - reverse-engineering
+    - exploit-research
+
+- name: Fox-IT
+  category: offensive-security
+  priority: medium
+  type: rss
+  enabled: true
+  url: https://blog.fox-it.com/feed/
+  tags:
+    - incident-response
+    - offensive-security
+
+- name: dogesec
+  category: offensive-security
+  priority: medium
+  type: rss
+  enabled: true
+  url: https://www.dogesec.com/feed.xml
+  tags:
+    - osint
+    - threat-intel
+```
